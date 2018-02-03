@@ -1,0 +1,31 @@
+
+Install GIT :- https://git-scm.com/
+Download and install:  https://www.apachefriends.org/index.html
+
+Team/Project Folder Structure: 
+
+	Project-Folder
+		
+		Device
+		App
+		Documents
+		Reviews
+		Backup
+		
+IMP GIT Commands: 
+
+git --help // For help purpose
+git Clone www.github.com/user/project folder_name // For help purpose
+git status // to find the changes
+git add file_name.extension // for adding single file to git 
+git add . //adding all files changes to git
+git commit -m 'your work comment' // committing the changes locally
+git push origin master //committing changes to github.com
+git pull // getting updates from the github.com after the git clone
+
+
+Front end development:
+
+links: https://www.w3schools.com/bootstrap/default.asp
+		
+		
