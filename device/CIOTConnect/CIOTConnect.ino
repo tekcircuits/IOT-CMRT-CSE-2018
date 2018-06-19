@@ -5,17 +5,15 @@
 int statuss = 0;
 int out = 0, wcount, blink_delay=20;
 
-unsigned int tcount=0;
-
 String url_string;
 byte letter;
 
-const char* ssid     = "Tekcircuits R&D Lab";
-const char* pass = "key#@ctpl12345$#";
+const char* ssid     = "Tekcircuits Lab";
+const char* pass = "************";
 const char* server = "192.168.0.151";
 
 const char* server1 = "52.33.33.53";
-const char* url1 = "GET /iot/api/user/ukey=DR0MIGCPSE8KPC1RUXJP9FXZQSOO1VTL&mode=248&skey=7PEC3RJV/";
+const char* url1 = "GET /iot/api/user/ukey=xxxxxxxxxxxxxx&mode=mmmmm&skey=kkkkkkkk/";
 WiFiClient client;
 void setup() 
 {

@@ -20,9 +20,8 @@ const char* pass = "pass";
 
 // Server Credentials
 const char* host = "52.33.33.53";
-const char* url = "GET /iot/api/user/ukey=jsdjsdlfkdshjdlk&mode=249&dkey=jjjjj/switches HTTP/1.1";
+const char* url = "GET /iot/api/user/ukey=xxxxxxxxxxx&mode=mmmmmmm&dkey=dddddddd/switches HTTP/1.1";
 
-//const char* url = iot1/api/user/ukey=ZJA52LXLE1S3WJFL0B0SYAU74REDSUVN&mode=249&dkey=2LT2GIVL/switches
 
 // Objects
 WiFiClient client;
@@ -61,7 +60,7 @@ String line = client.readStringUntil('\r');
     Serial.println(F("Connected!"));
 
   // Send HTTP request
-  client.println(F("GET /iot/api/user/ukey=&mode=249&dkey=/switches HTTP/1.1"));
+  client.println(F("GET /iot/api/user/ukey=xxxxxxxxxxxxxxx&mode=xxxx&dkey=xxxxx/switches HTTP/1.1"));
   client.println(F("Host: 52.33.33.53"));
   client.println(F("Connection: close"));
   if (client.println() == 0) {
